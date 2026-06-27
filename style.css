@@ -35,17 +35,24 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
     border: 2px solid #065143;
-    border-bottom: none;
+    /* border-bottom: none; */
     overflow: auto;
 
     box-sizing: border-box;
     width: 100%;
     padding: 1rem;
-    margin: 0;
+    margin: 1rem;
 }
 
 main h1 {
